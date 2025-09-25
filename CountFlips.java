@@ -6,7 +6,10 @@ public class CountFlips {
     for(int x = 0; x != 100; x++){
       myCoin.flip();
       if(myCoin.isHeads()){
-        
+        ++heads;
+      }
+      else{
+        ++tails;
       }
     }
   }
