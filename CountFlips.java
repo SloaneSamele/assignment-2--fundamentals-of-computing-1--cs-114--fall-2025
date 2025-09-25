@@ -12,5 +12,6 @@ public class CountFlips {
         ++tails;
       }
     }
+    System.out.print("Heads :" + heads +"\n" +"Tails :" + tails);
   }
 }
