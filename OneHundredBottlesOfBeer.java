@@ -11,6 +11,10 @@ public class OneHundredBottlesOfBeer {
       System.out.println(bottles + " bottles of beer");
       System.out.println("If one of those bottles should happen to fall");
       --bottles;
+      if(bottles < 0){
+        System.out.print("0 bottles of beer on the wall");
+      }
+      else{
         System.out.println(bottles + " bottles of beer on the wall");
         System.out.println();
       }
