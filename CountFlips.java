@@ -1,8 +1,9 @@
 public class CountFlips {
   public static void main(String[] args) {
-    Coin myCoin = new Coin();
+    
     int heads = 0, tails = 0;
-  
+    Coin myCoin = new Coin();
+
     for(int x = 0; x != 100; x++){
       myCoin.flip();
       if(myCoin.isHeads()){
@@ -12,6 +13,6 @@ public class CountFlips {
         ++tails;
       }
     }
-    System.out.print("Heads :" + heads +"\n" +"Tails :" + tails);
+    System.out.print("Heads : " + heads +"\n" +"Tails : " + tails);
   }
 }
