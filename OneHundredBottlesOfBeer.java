@@ -6,6 +6,9 @@ public class OneHundredBottlesOfBeer {
     
     System.out.println("Please enter a number of bottles of beers:");
     bottles = input.nextInt();
+    while(bottles > 0){
+      --bottles;
+    }
     input.close();
   }
 }
