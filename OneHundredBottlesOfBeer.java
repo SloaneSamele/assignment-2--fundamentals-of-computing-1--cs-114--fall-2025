@@ -7,7 +7,13 @@ public class OneHundredBottlesOfBeer {
     System.out.println("Please enter a number of bottles of beers:");
     bottles = input.nextInt();
     while(bottles > 0){
+      System.out.println(bottles + " bottles of beer on the wall");
+      System.out.println(bottles + " bottles of beer");
+      System.out.println("If one of those bottles should happen to fall");
       --bottles;
+        System.out.println(bottles + " bottles of beer on the wall");
+        System.out.println();
+      }
     }
     input.close();
   }
