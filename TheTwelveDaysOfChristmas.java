@@ -1,5 +1,6 @@
 public class TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
+    for(int x = 1; x <= 12; x++){
     System.out.println("Tweleve drummers drumming,");
     System.out.println("Eleven pipers piping,");
     System.out.println("Ten lords a-leaping,");
@@ -12,5 +13,7 @@ public class TheTwelveDaysOfChristmas {
     System.out.println("Three french hens,");
     System.out.println("Two turtle doves, and");
     System.out.println("A partrigde in a pear tree.");
+    System.out.println(x);
+    }
   }
 }
