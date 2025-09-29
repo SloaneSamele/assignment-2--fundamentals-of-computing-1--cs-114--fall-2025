@@ -32,11 +32,11 @@ public class PrintVowelsAndNonVowels {
           break;
       }
     }
-    System.out.println("A: " + a);
-    System.out.println("E: " + e);
-    System.out.println("I: " + i);
-    System.out.println("O: " + o);
-    System.out.println("U: " + u);
-    System.out.println("Other: " + other);
+    System.out.println("a: " + a);
+    System.out.println("e: " + e);
+    System.out.println("i: " + i);
+    System.out.println("o: " + o);
+    System.out.println("u: " + u);
+    System.out.println("other: " + other);
   }
 }
