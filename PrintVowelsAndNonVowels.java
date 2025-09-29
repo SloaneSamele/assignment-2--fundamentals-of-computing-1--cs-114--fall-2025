@@ -9,6 +9,28 @@ public class PrintVowelsAndNonVowels {
     System.out.print("Please enter a lowercase  message: ");
     message = input.nextLine();
     input.close();
-
+    
+    for(int x = 0; x < message.length(); ++x){
+      switch (message.charAt(x)) {
+        case 'a':
+          ++a;
+          break;
+        case 'e':
+          ++e;
+          break;
+        case 'i':
+          ++i;
+          break;
+        case 'o':
+          ++o;
+          break;
+        case 'u':
+          ++u;
+          break;
+        default:
+          ++other;
+          break;
+      }
+    }
   }
 }
