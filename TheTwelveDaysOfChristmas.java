@@ -1,6 +1,18 @@
 public class TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
     for(int x = 1; x <= 12; x++){
+      if(x == 1){
+        System.out.println("On the "+ x + "st day of Christmas, my true love gave to me");
+      }
+      else if(x == 2){
+        System.out.println("On the "+ x + "nd day of Christmas, my true love gave to me");
+      }
+      else if(x == 3){
+        System.out.println("On the "+ x + "rd day of Christmas, my true love gave to me");
+      }
+      else{
+      System.out.println("On the "+ x + "th day of Christmas, my true love gave to me");
+      }
       switch(x){
         case 12:
           System.out.println("Tweleve drummers drumming,");
