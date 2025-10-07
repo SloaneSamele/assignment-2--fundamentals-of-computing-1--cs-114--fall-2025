@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class OneHundredBottlesOfBeer {
   public static void main(String[] args) {
     int bottles;
@@ -6,12 +7,14 @@ public class OneHundredBottlesOfBeer {
     
     System.out.println("Please enter a number of bottles of beers:");
     bottles = input.nextInt();
+    input.close();
+    
     while(bottles > 0){
       System.out.println(bottles + " bottles of beer on the wall");
       System.out.println(bottles + " bottles of beer");
       System.out.println("If one of those bottles should happen to fall");
-      --bottles;
-      if(bottles < 0){
+      
+      if(--bottles < 0){
         System.out.print("0 bottles of beer on the wall");
       }
       else{
@@ -19,6 +22,5 @@ public class OneHundredBottlesOfBeer {
         System.out.println();
       }
     }
-    input.close();
   }
 }

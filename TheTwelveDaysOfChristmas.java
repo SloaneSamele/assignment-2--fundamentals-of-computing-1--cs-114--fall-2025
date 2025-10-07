@@ -2,21 +2,21 @@ public class TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
     System.out.println("---The Tweleve days of Christmas---\n");
     
-    for(int x = 1; x <= 12; x++){
-      if(x == 1){
+    for(int day = 1; x <= 12; day++){
+      if(day == 1){
         System.out.println("On the "+ x + "st day of Christmas, my true love gave to me");
       }
-      else if(x == 2){
+      else if(day == 2){
         System.out.println("On the "+ x + "nd day of Christmas, my true love gave to me");
       }
-      else if(x == 3){
+      else if(day == 3){
         System.out.println("On the "+ x + "rd day of Christmas, my true love gave to me");
       }
       else{
       System.out.println("On the "+ x + "th day of Christmas, my true love gave to me");
       }
       
-      switch(x){
+      switch(day){
         case 12:
           System.out.println("Tweleve drummers drumming,");
 
@@ -54,7 +54,7 @@ public class TheTwelveDaysOfChristmas {
           System.out.println("A partrigde in a pear tree.\n");
 
           break;
-
+          
       }
     }
   }
