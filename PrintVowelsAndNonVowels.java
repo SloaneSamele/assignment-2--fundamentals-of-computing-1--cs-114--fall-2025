@@ -14,21 +14,32 @@ public class PrintVowelsAndNonVowels {
       switch (message.charAt(x)) {
         case 'a':
           ++a;
+          
           break;
+        
         case 'e':
           ++e;
+          
           break;
+        
         case 'i':
           ++i;
+          
           break;
+        
         case 'o':
           ++o;
+          
           break;
+        
         case 'u':
           ++u;
+          
           break;
+        
         default:
           ++other;
+          
           break;
       }
     }
