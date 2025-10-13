@@ -43,6 +43,7 @@ public class PrintVowelsAndNonVowels {
           break;
       }
     }
+    
     System.out.println("a: " + a);
     System.out.println("e: " + e);
     System.out.println("i: " + i);
