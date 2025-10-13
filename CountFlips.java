@@ -11,7 +11,7 @@ public class CountFlips {
       }
 
     }
-    System.out.println("Out of 100 coin clips you got");
+    System.out.println("Out of 100 coin flips you got");
     System.out.print("Heads : " + heads +"\n" +"Tails : " + (100 - heads));
   }
 }
