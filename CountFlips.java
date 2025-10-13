@@ -1,6 +1,5 @@
 public class CountFlips {
   public static void main(String[] args) {
-    
     int heads = 0;
     Coin myCoin = new Coin();
 
@@ -9,8 +8,8 @@ public class CountFlips {
       if(myCoin.isHeads()){
         ++heads;
       }
-
     }
+
     System.out.println("Out of 100 coin flips you got");
     System.out.print("Heads : " + heads +"\n" +"Tails : " + (100 - heads));
   }
