@@ -6,7 +6,7 @@ public class PrintVowelsAndNonVowels {
     Scanner input = new Scanner(System.in);
     
     System.out.println("--Vowel Counter--");
-    System.out.print("Please enter a lowercase  message: ");
+    System.out.print("Please enter a message: ");
     message = input.nextLine();
     input.close();
     
