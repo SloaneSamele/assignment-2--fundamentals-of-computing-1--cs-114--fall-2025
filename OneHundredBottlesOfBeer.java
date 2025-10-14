@@ -5,6 +5,7 @@ public class OneHundredBottlesOfBeer {
     int bottles;
     Scanner input = new Scanner(System.in);
     
+    System.out.println("---One hundred bottles of beer---")
     System.out.println("Please enter a number of bottles of beers:");
     bottles = input.nextInt();
     input.close();
