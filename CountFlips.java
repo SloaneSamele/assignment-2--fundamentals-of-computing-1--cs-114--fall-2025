@@ -3,7 +3,7 @@ public class CountFlips {
     int heads = 0;
     Coin myCoin = new Coin();
 
-    for(int x = 0; x != 100; x++){
+    for(int x = 0; x < 100; x++){
       myCoin.flip();
       if(myCoin.isHeads()){
         ++heads;
