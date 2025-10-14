@@ -5,11 +5,16 @@ public class OneHundredBottlesOfBeer {
     int bottles;
     Scanner input = new Scanner(System.in);
     
-    System.out.println("---One hundred bottles of beer---")
+    System.out.println("---One hundred bottles of beer---");
     System.out.println("Please enter a number of bottles of beers:");
-    bottles = input.nextInt();
-    input.close();
     
+    if(!input.hasNextInt()){
+      System.out.println("Input is not a number of bottles");
+
+      return;
+    };
+    bottles = input.nextInt();
+
     while(bottles > 0){
       System.out.println(bottles + " bottles of beer on the wall");
       System.out.println(bottles + " bottles of beer");
